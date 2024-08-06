@@ -6,7 +6,9 @@
 		<groupId>com.mcca</groupId>
 		<artifactId>microservices</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath> <!-- Esto apunta al POM principal -->
 	</parent>
+
 
 	<artifactId>inventory-services</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
